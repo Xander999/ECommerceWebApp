@@ -1,0 +1,61 @@
+.headerComponent{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height : 14vh;
+    font-size: 16px;
+    font-family: 'Roboto', arial, sans-serif;
+}
+.headerComponentMenus{
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    width : 70%;
+}
+.headerComponentMenusComp{
+    margin-left : 2%;
+    margin-right : 2%;
+    cursor : pointer;
+}
+.selected {
+    border-top: 3px solid black;
+    font-weight : 700;
+    color : rgb(117, 9, 23);
+}
+.headerComponentMenusCompArrrowDownIcon{
+    width: 14px;
+    margin-left: 7px;
+}
+
+
+.headerComponentUtilies{
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    width : 30%;
+}
+.headerComponentUtiliesComp{
+    padding-left : 3%;
+    padding-right : 2%;
+}
+.headerComponentUtiliesSearchIcon{
+    cursor : pointer;
+    width:18px;
+}
+.headerComponentUtiliesBasketIcon{
+    cursor : pointer;
+    widows: 18px;
+}
+.headerComponentUtiliesProfileIcon{
+    cursor : pointer;
+    width : 20px;
+}
+
+@media (max-width:1024px){
+    .mob{
+        display: none;
+    }
+}
